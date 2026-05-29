@@ -1,7 +1,7 @@
 {
   "name": "autocapture-sdk-demo",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.6",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
@@ -10,7 +10,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@bynn-intelligence/autocapture-sdk": "^0.1.0",
+    "@bynn-intelligence/autocapture-sdk": "^0.1.6",
     "onnxruntime-web": "^1.20.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
