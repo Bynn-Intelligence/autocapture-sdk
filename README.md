@@ -73,6 +73,7 @@ full-screen `fixed inset-0` element).
 | `executionProviders` | `ExecutionProvider[]` | `["webgpu","wasm"]` | onnxruntime-web execution providers. |
 | `minQuality` | `number` | `0.85` | Minimum quality score to auto-capture. |
 | `stableFrames` | `number` | `5` | Stability hold before capture (~120 ms per unit). |
+| `highResCapture` | `boolean` | `true` | Take the final capture as a full-resolution still (ImageCapture.takePhoto, or a one-shot switch of the camera track to its largest mode) instead of a 1080p preview frame. Falls back to the preview frame on any failure. |
 | `language` | `string` | auto | Force a UI language; omitted = browser-detected. |
 | `mirror` | `boolean` | auto | Mirror the preview; defaults by device. |
 | `debug` | `boolean` | `false` | Show detection overlays and a metrics HUD. |
